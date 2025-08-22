@@ -8,15 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var userDefaultsManager = UserDefaultsManager.shared
+    @State private var showingSecretStorage = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if !userDefaultsManager.hasSetPassword {
+                // Lần đầu vào app - hiển thị màn hình thiết lập password
+                PasswordSetupView()
+            } else {
+                // Đã có password - hiển thị calculator
+                CalculatorView()
+                    .onReceive(NotificationCenter.default.publisher(for: .showSecretStorage)) { _ in
+                        showingSecretStorage = true
+                    }
+            }
         }
-        .padding()
+        .sheet(isPresented: $showingSecretStorage) {
+            SecretStorageView()
+        }
     }
+}
+
+// Notification để trigger việc hiển thị SecretStorageView
+extension Notification.Name {
+    static let showSecretStorage = Notification.Name("showSecretStorage")
 }
 
 #Preview {

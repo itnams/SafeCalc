@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D8E0148E2E57F7F5007C29D7 /* Calcify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E0148E2E57F7F5007C29D7 /* SafeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		D8E0148F2E57F7F5007C29D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8E0148E2E57F7F5007C29D7 /* Calcify.app */,
+				D8E0148E2E57F7F5007C29D7 /* SafeCalc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8E0148D2E57F7F5007C29D7 /* Calcify */ = {
+		D8E0148D2E57F7F5007C29D7 /* SafeCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8E0149A2E57F7F7007C29D7 /* Build configuration list for PBXNativeTarget "Calcify" */;
+			buildConfigurationList = D8E0149A2E57F7F7007C29D7 /* Build configuration list for PBXNativeTarget "SafeCalc" */;
 			buildPhases = (
 				D8E0148A2E57F7F5007C29D7 /* Sources */,
 				D8E0148B2E57F7F5007C29D7 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				D8E014902E57F7F5007C29D7 /* Calcify */,
 			);
-			name = Calcify;
+			name = SafeCalc;
 			packageProductDependencies = (
 			);
 			productName = Calcify;
-			productReference = D8E0148E2E57F7F5007C29D7 /* Calcify.app */;
+			productReference = D8E0148E2E57F7F5007C29D7 /* SafeCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8E014892E57F7F5007C29D7 /* Build configuration list for PBXProject "Calcify" */;
+			buildConfigurationList = D8E014892E57F7F5007C29D7 /* Build configuration list for PBXProject "SafeCalc" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8E0148D2E57F7F5007C29D7 /* Calcify */,
+				D8E0148D2E57F7F5007C29D7 /* SafeCalc */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8E014892E57F7F5007C29D7 /* Build configuration list for PBXProject "Calcify" */ = {
+		D8E014892E57F7F5007C29D7 /* Build configuration list for PBXProject "SafeCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8E014982E57F7F7007C29D7 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8E0149A2E57F7F7007C29D7 /* Build configuration list for PBXNativeTarget "Calcify" */ = {
+		D8E0149A2E57F7F7007C29D7 /* Build configuration list for PBXNativeTarget "SafeCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8E0149B2E57F7F7007C29D7 /* Debug */,
