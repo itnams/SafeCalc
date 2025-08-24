@@ -1,7 +1,7 @@
-# Calcify - Ứng dụng Calculator ẩn với kho lưu trữ bí mật
+# SafeCalc - Ứng dụng Calculator ẩn với kho lưu trữ bí mật
 
 ## Mô tả
-Calcify là một ứng dụng iOS được thiết kế để trông giống như một ứng dụng Calculator bình thường, nhưng thực chất có một kho lưu trữ bí mật bên trong. Ứng dụng này cho phép người dùng lưu trữ an toàn các ghi chú, tệp, ảnh và video.
+SafeCalc là một ứng dụng iOS được thiết kế để trông giống như một ứng dụng Calculator bình thường, nhưng thực chất có một kho lưu trữ bí mật bên trong. Ứng dụng này cho phép người dùng lưu trữ an toàn các ghi chú, tệp, ảnh và video.
 
 ## Tính năng chính
 
@@ -52,8 +52,8 @@ Calcify là một ứng dụng iOS được thiết kế để trông giống nh
 ## Cấu trúc dự án
 
 ```
-Calcify/
-├── CalcifyApp.swift          # Điểm khởi đầu của ứng dụng
+SafeCalc/
+├── SafeCalcApp.swift          # Điểm khởi đầu của ứng dụng
 ├── ContentView.swift         # View chính quản lý luồng điều hướng
 ├── UserDefaultsManager.swift # Quản lý mật khẩu và trạng thái
 ├── PasswordSetupView.swift   # Màn hình thiết lập mật khẩu lần đầu
@@ -70,7 +70,7 @@ Calcify/
 
 ## Cài đặt và chạy
 1. Clone dự án về máy
-2. Mở file `Calcify.xcodeproj` trong Xcode
+2. Mở file `SafeCalc.xcodeproj` trong Xcode
 3. Chọn thiết bị hoặc simulator
 4. Nhấn Run (⌘+R)
 
